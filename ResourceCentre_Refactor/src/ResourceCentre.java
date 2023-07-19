@@ -27,8 +27,10 @@ public class ResourceCentre {
 
 			} else if (option == 2) {
 				// Add a new item
+
 				ResourceCentre.setHeader("ADD");			
 				itemTypeMenu();
+
 				
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
@@ -50,8 +52,10 @@ public class ResourceCentre {
 
 			} else if (option == 3) {
 				// Loan item
+
 				ResourceCentre.setHeader("LOAN");			
 				itemTypeMenu();
+
 				
 				int itemType = Helper.readInt("Enter option to select item type > ");
 
@@ -67,8 +71,10 @@ public class ResourceCentre {
 
 			} else if (option == 4) {
 				// Return item
+
 				ResourceCentre.setHeader("RETURN");				
 				itemTypeMenu();
+
 				
 				int itemType = Helper.readInt("Enter option to select item type > ");
 				if (itemType == 1) {
@@ -90,6 +96,8 @@ public class ResourceCentre {
 		}
 
 	}
+	
+
 
 	public static void menu() {
 		ResourceCentre.setHeader("RESOURCE CENTRE APP");
